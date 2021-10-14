@@ -11,6 +11,12 @@
 		038CE3F82717C987007C8AE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CE3F72717C987007C8AE7 /* ContentView.swift */; };
 		038CE3FA2717C98B007C8AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038CE3F92717C98B007C8AE7 /* Assets.xcassets */; };
 		038CE3FD2717C98B007C8AE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038CE3FC2717C98B007C8AE7 /* Preview Assets.xcassets */; };
+		038CE4062717CAB2007C8AE7 /* XPlaneConnectMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 038CE4052717CAB2007C8AE7 /* XPlaneConnectMain.m */; };
+		038CE4092717CCCA007C8AE7 /* xplaneConnect.c in Sources */ = {isa = PBXBuildFile; fileRef = 038CE4082717CCCA007C8AE7 /* xplaneConnect.c */; };
+		038CE4112717E7DF007C8AE7 /* B612Mono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038CE40D2717E7DF007C8AE7 /* B612Mono-Italic.ttf */; };
+		038CE4122717E7DF007C8AE7 /* B612Mono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038CE40E2717E7DF007C8AE7 /* B612Mono-BoldItalic.ttf */; };
+		038CE4132717E7DF007C8AE7 /* B612Mono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038CE40F2717E7DF007C8AE7 /* B612Mono-Bold.ttf */; };
+		038CE4142717E7DF007C8AE7 /* B612Mono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038CE4102717E7DF007C8AE7 /* B612Mono-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,16 @@
 		038CE3F92717C98B007C8AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		038CE3FC2717C98B007C8AE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		038CE3FE2717C98B007C8AE7 /* XPlane_Avionics_Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XPlane_Avionics_Connect.entitlements; sourceTree = "<group>"; };
+		038CE4042717CAB2007C8AE7 /* XPlane-Avionics-Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPlane-Avionics-Connect-Bridging-Header.h"; sourceTree = "<group>"; };
+		038CE4052717CAB2007C8AE7 /* XPlaneConnectMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPlaneConnectMain.m; sourceTree = "<group>"; };
+		038CE4072717CAC8007C8AE7 /* XPlaneConnectMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPlaneConnectMain.h; sourceTree = "<group>"; };
+		038CE4082717CCCA007C8AE7 /* xplaneConnect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xplaneConnect.c; sourceTree = "<group>"; };
+		038CE40A2717CCD1007C8AE7 /* xplaneConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xplaneConnect.h; sourceTree = "<group>"; };
+		038CE40D2717E7DF007C8AE7 /* B612Mono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B612Mono-Italic.ttf"; sourceTree = "<group>"; };
+		038CE40E2717E7DF007C8AE7 /* B612Mono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B612Mono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		038CE40F2717E7DF007C8AE7 /* B612Mono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B612Mono-Bold.ttf"; sourceTree = "<group>"; };
+		038CE4102717E7DF007C8AE7 /* B612Mono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B612Mono-Regular.ttf"; sourceTree = "<group>"; };
+		038CE4162717E874007C8AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +68,18 @@
 		038CE3F42717C987007C8AE7 /* XPlane-Avionics-Connect */ = {
 			isa = PBXGroup;
 			children = (
+				038CE4162717E874007C8AE7 /* Info.plist */,
 				038CE3F52717C987007C8AE7 /* XPlane_Avionics_ConnectApp.swift */,
 				038CE3F72717C987007C8AE7 /* ContentView.swift */,
+				038CE4052717CAB2007C8AE7 /* XPlaneConnectMain.m */,
+				038CE4072717CAC8007C8AE7 /* XPlaneConnectMain.h */,
 				038CE3F92717C98B007C8AE7 /* Assets.xcassets */,
 				038CE3FE2717C98B007C8AE7 /* XPlane_Avionics_Connect.entitlements */,
+				038CE4082717CCCA007C8AE7 /* xplaneConnect.c */,
+				038CE40A2717CCD1007C8AE7 /* xplaneConnect.h */,
 				038CE3FB2717C98B007C8AE7 /* Preview Content */,
+				038CE4042717CAB2007C8AE7 /* XPlane-Avionics-Connect-Bridging-Header.h */,
+				038CE4152717E7EB007C8AE7 /* Fonts */,
 			);
 			path = "XPlane-Avionics-Connect";
 			sourceTree = "<group>";
@@ -67,6 +90,17 @@
 				038CE3FC2717C98B007C8AE7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		038CE4152717E7EB007C8AE7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				038CE40F2717E7DF007C8AE7 /* B612Mono-Bold.ttf */,
+				038CE40E2717E7DF007C8AE7 /* B612Mono-BoldItalic.ttf */,
+				038CE40D2717E7DF007C8AE7 /* B612Mono-Italic.ttf */,
+				038CE4102717E7DF007C8AE7 /* B612Mono-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,11 +130,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					038CE3F12717C987007C8AE7 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -128,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				038CE3FD2717C98B007C8AE7 /* Preview Assets.xcassets in Resources */,
+				038CE4142717E7DF007C8AE7 /* B612Mono-Regular.ttf in Resources */,
+				038CE4112717E7DF007C8AE7 /* B612Mono-Italic.ttf in Resources */,
 				038CE3FA2717C98B007C8AE7 /* Assets.xcassets in Resources */,
+				038CE4132717E7DF007C8AE7 /* B612Mono-Bold.ttf in Resources */,
+				038CE4122717E7DF007C8AE7 /* B612Mono-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				038CE3F82717C987007C8AE7 /* ContentView.swift in Sources */,
+				038CE4062717CAB2007C8AE7 /* XPlaneConnectMain.m in Sources */,
+				038CE4092717CCCA007C8AE7 /* xplaneConnect.c in Sources */,
 				038CE3F62717C987007C8AE7 /* XPlane_Avionics_ConnectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,13 +311,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "XPlane-Avionics-Connect/XPlane_Avionics_Connect.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XPlane-Avionics-Connect/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "XPlane-Avionics-Connect/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -284,6 +331,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jbwaring.XPlane-Avionics-Connect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XPlane-Avionics-Connect/XPlane-Avionics-Connect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -293,13 +342,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "XPlane-Avionics-Connect/XPlane_Avionics_Connect.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XPlane-Avionics-Connect/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "XPlane-Avionics-Connect/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jbwaring.XPlane-Avionics-Connect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XPlane-Avionics-Connect/XPlane-Avionics-Connect-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
